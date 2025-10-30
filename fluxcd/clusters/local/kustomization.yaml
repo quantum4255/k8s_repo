@@ -7,4 +7,4 @@ resources:
   - age-key-secret.yaml
   - git-pull-secret.yaml
   - flux-components.yaml
-  - infrastructure.yaml
+  - flux-sync.yaml
