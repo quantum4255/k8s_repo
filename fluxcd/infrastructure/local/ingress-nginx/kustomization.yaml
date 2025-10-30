@@ -5,3 +5,7 @@ namespace: ingress-nginx
 
 resources:
   - ../../base/ingress-nginx
+  - tls-secret.yaml
+
+patches:
+- path: nginx-ingress-release-patch.yaml
